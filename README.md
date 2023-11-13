@@ -23,6 +23,8 @@ Gracias a este proyecto, ampliamos nuestro conocimiento en diferentes areas como
 
 # Archivos Multimedia
 ## Fotos
-![zer_video_img](https://drive.google.com/file/d/11wxJRINLuGf1xzWTfpv2VvfbYe2Eymw4/view?usp=drive_link)
 
 ## Videos
+![zer_video_img](https://github.com/RodrigoSturm14/Zapatilla-Electronica-Remota-Z.E.R-/assets/105557226/a82fa8dc-b918-444d-a02f-bd17f430531e)
+
+[Video](https://drive.google.com/file/d/11wxJRINLuGf1xzWTfpv2VvfbYe2Eymw4/view?usp=sharing)
