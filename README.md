@@ -22,7 +22,22 @@ Gracias a este proyecto, ampliamos nuestro conocimiento en diferentes areas como
 * **/Diseño 3D**, se encuentran los archivos .STL  utilizados en el proyecto.
 
 # Archivos Multimedia
+
 ## Fotos
+### Aplicacion Movil
+
+Aqui se muestra la estructura de la app. En la seccion superior puede verse el nombre del dispositivo, mientras que en el resto de la pantalla se situa la informacion de los diferentes tomas. Se tienen los siguientes elementos para controlar cada uno de los tomacorriente: 
+
+* **Botones de encender y apagar**
+* **Tabla indicativa del estado del toma** (Su color y mensaje cambia depende el estado).
+
+![image](https://github.com/RodrigoSturm14/Zapatilla-Electronica-Remota-Z.E.R-/assets/133114947/24666520-1219-45d1-9a69-8cec763d5a1d)
+
+### Interfaz grafica de conexiones en el broker
+
+![image](https://github.com/RodrigoSturm14/Zapatilla-Electronica-Remota-Z.E.R-/assets/133114947/0cc4edf8-5742-42b1-85bf-aca77e879125)
+
+En esta imagen se ven representadas las conexiones que se realizan al usar el proyecto. Por un lado, el "esp32-client" representa al microcontrolador de la zapatilla, el cual se encarga de recibir la informacion enviada por parte de la app. Esta ultima se ve en el otro extremo de la conexion. Por ultimo, se encuentran los "topicos" en donde se almacenan los mensajes enviados desde la app. Estos serian los tomas, y pueden adoptar un mensaje de "encendido" o "apagado".
 
 ## Videos
 ![zer_video_img](https://github.com/RodrigoSturm14/Zapatilla-Electronica-Remota-Z.E.R-/assets/105557226/a82fa8dc-b918-444d-a02f-bd17f430531e)
