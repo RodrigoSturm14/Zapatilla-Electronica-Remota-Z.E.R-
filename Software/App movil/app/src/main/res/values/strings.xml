@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Codigo MQTT Java</string>
+    <string name="info_cliente">Info cliente</string>
+
+    <string name="encender">ENCENDER</string>
+    <string name="apagar">APAGAR</string>
+    <string name="apagar2">APAGAR</string>
+    <string name="encender2">ENCENDER</string>
+    <string name="encender3">ENCENDER</string>
+    <string name="apagar3">APAGAR</string>
+    <string name="encender4">ENCENDER</string>
+    <string name="apagar4">APAGAR</string>
+
+
+    <string name="toma_estado">TOMA1 ESTADO</string>
+    <string name="toma_estado2">TOMA2 ESTADO</string>
+    <string name="toma_estado3">TOMA3 ESTADO</string>
+    <string name="toma_estado4">TOMA4 ESTADO</string>
+
+    <string name="toma_1">Toma 1</string>
+    <string name="toma_2">Toma 2</string>
+    <string name="toma_3">Toma 3</string>
+    <string name="toma_4">Toma 4</string>
+
+    <string name="ENCENDIDO">ENCENDIDO</string>
+    <string name="APAGADO" >APAGADO</string>
+
+</resources>
