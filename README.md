@@ -40,6 +40,9 @@ Aqui se muestra la estructura de la app. En la seccion superior puede verse el n
 
 En esta imagen se ven representadas las conexiones que se realizan al usar el proyecto. Por un lado, el "esp32-client" representa al microcontrolador de la zapatilla, el cual se encarga de recibir la informacion enviada por parte de la app. Esta ultima se ve en el otro extremo de la conexion. Por ultimo, se encuentran los "topicos" en donde se almacenan los mensajes enviados desde la app. Estos serian los tomas, y pueden adoptar un mensaje de "encendido" o "apagado".
 
+![zer_4](https://github.com/RodrigoSturm14/Zapatilla-Electronica-Remota-Z.E.R-/assets/105557226/a6852da1-2f48-4398-a0bb-47121b24b101)
+
+
 ### Placa Master
 
 En esta imagen se puede observar la placa principal del proyecto, la cual cumple el rol de recibir y confirmar este recibimiento los datos provenientes del broquer mqtt y encender o no cada uno de los tomas en consecuencia.
