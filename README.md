@@ -34,13 +34,17 @@ Aqui se muestra la estructura de la app. En la seccion superior puede verse el n
 
 ![image](https://github.com/RodrigoSturm14/Zapatilla-Electronica-Remota-Z.E.R-/assets/133114947/24666520-1219-45d1-9a69-8cec763d5a1d)
 
-### Interfaz grafica de conexiones en el broker
+### Diagramas de conexion con el broker
 
-![image](https://github.com/RodrigoSturm14/Zapatilla-Electronica-Remota-Z.E.R-/assets/133114947/0cc4edf8-5742-42b1-85bf-aca77e879125)
-
-En esta imagen se ven representadas las conexiones que se realizan al usar el proyecto. Por un lado, el "esp32-client" representa al microcontrolador de la zapatilla, el cual se encarga de recibir la informacion enviada por parte de la app. Esta ultima se ve en el otro extremo de la conexion. Por ultimo, se encuentran los "topicos" en donde se almacenan los mensajes enviados desde la app. Estos serian los tomas, y pueden adoptar un mensaje de "encendido" o "apagado".
+En este diagrama se ven las conexiones entre el broker y los nodos de la aplicacion movil y el microcontrolador. El broker MQTT es un intermediario en la comunicacion entre la aplicacion movil y el ESP32. Para que este protocolo funcione, ambas partes deben estar conectadas a una red WiFi.
 
 ![zer_4](https://github.com/RodrigoSturm14/Zapatilla-Electronica-Remota-Z.E.R-/assets/105557226/a6852da1-2f48-4398-a0bb-47121b24b101)
+
+### Interfaz grafica de conexiones en el broker
+
+En esta imagen se ven representadas las conexiones que se realizan al usar el proyecto. El broker [Shiftr](https://www.shiftr.io/) permite ver un diagrama de conexiones a tiempo real de los clientes y los topicos. Por un lado, el "esp32-client" representa al microcontrolador de la zapatilla, el cual se encarga de recibir la informacion enviada por parte de la app. Esta ultima se ve en el otro extremo de la conexion. Por ultimo, se encuentran los "topicos" en donde se almacenan los mensajes enviados desde la app. Estos serian los tomas, y pueden adoptar un mensaje de "encendido" o "apagado".
+
+![image](https://github.com/RodrigoSturm14/Zapatilla-Electronica-Remota-Z.E.R-/assets/133114947/0cc4edf8-5742-42b1-85bf-aca77e879125)
 
 
 ### Placa Master
