@@ -47,7 +47,7 @@ En esta imagen se ven representadas las conexiones que se realizan al usar el pr
 ![image](https://github.com/RodrigoSturm14/Zapatilla-Electronica-Remota-Z.E.R-/assets/133114947/0cc4edf8-5742-42b1-85bf-aca77e879125)
 
 
-### Placa Master
+### Placa Master 
 
 En esta imagen se puede observar la placa principal del proyecto, la cual cumple el rol de recibir y confirmar este recibimiento los datos provenientes del broquer mqtt y encender o no cada uno de los tomas en consecuencia.
 Principalmente está conformada por:
@@ -55,7 +55,7 @@ Principalmente está conformada por:
 * **Los Relay:** Principales responsables del encendido y/o apagado de los tomas del proyecto.
 
 ![image](https://github.com/RodrigoSturm14/Zapatilla-Electronica-Remota-Z.E.R-/blob/main/Hardware/0.4/Imagen%203d%20con%20esp.jpg)
-[image](https://github.com/RodrigoSturm14/Zapatilla-Electronica-Remota-Z.E.R-/tree/main/Hardware/0.4)
+
 
 ### Placa de Periféricos:
 
