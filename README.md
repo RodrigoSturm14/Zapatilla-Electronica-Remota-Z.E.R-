@@ -55,6 +55,7 @@ Principalmente está conformada por:
 * **Los Relay:** Principales responsables del encendido y/o apagado de los tomas del proyecto.
 
 ![image](https://github.com/RodrigoSturm14/Zapatilla-Electronica-Remota-Z.E.R-/blob/main/Hardware/0.4/Imagen%203d%20con%20esp.jpg)
+[image](https://github.com/RodrigoSturm14/Zapatilla-Electronica-Remota-Z.E.R-/tree/main/Hardware/0.4)
 
 ### Placa de Periféricos:
 
