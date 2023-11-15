@@ -1,4 +1,4 @@
-#  Zapatilla Electrónica Remota (Z.E.R)
+#  Zapatilla Electrónica Remota (Z.E.R) ⚡🏠
 ![zer_3](https://github.com/RodrigoSturm14/Zapatilla-Electronica-Remota-Z.E.R-/assets/105557226/2e0b8db4-eaf7-421f-905a-5cf753c8b182)
 
 # Descripción del proyecto
