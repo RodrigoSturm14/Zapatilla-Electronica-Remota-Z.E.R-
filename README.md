@@ -1,8 +1,9 @@
 #  Zapatilla Electrónica Remota (Z.E.R)
-FOTO
+![zer_3](https://github.com/RodrigoSturm14/Zapatilla-Electronica-Remota-Z.E.R-/assets/105557226/2e0b8db4-eaf7-421f-905a-5cf753c8b182)
 
 # Descripción del proyecto
 Este repositorio se dedica a documentar y recopilar el desarrollo de **Z.E.R**; un proyecto de automatizacion IoT desarrollado por Montial Octavio, Pierini Franco, Vallone Fabrizio, Sturm Rodrigo y Zuñiga Juan Jose.
+
 
 Z.E.R es una zapatilla eléctrica que fue diseñada para activar y desactivar sus tomacorrientes inalámbricamente mediante nuestra aplicación móvil a través del uso de comunicación MQTT.
 Decidimos implementar el protocolo de comunicacion MQTT debido a su sensillo uso y accecible conectividad WiFi con el microcontrolador ESP32.
