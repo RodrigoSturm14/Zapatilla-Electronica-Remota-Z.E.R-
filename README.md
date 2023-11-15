@@ -39,6 +39,25 @@ Aqui se muestra la estructura de la app. En la seccion superior puede verse el n
 
 En esta imagen se ven representadas las conexiones que se realizan al usar el proyecto. Por un lado, el "esp32-client" representa al microcontrolador de la zapatilla, el cual se encarga de recibir la informacion enviada por parte de la app. Esta ultima se ve en el otro extremo de la conexion. Por ultimo, se encuentran los "topicos" en donde se almacenan los mensajes enviados desde la app. Estos serian los tomas, y pueden adoptar un mensaje de "encendido" o "apagado".
 
+### Placa Master
+
+En esta imagen se puede observar la placa principal del proyecto, la cual cumple el rol de recibir y confirmar este recibimiento los datos provenientes del broquer mqtt y encender o no cada uno de los tomas en consecuencia.
+Principalmente está conformada por:
+* **El microcontrolador Esp32:** Encargado de la comunicación con el broker mqtt y el proceso lógico en consecuencia
+* **Los Relay:** Principales responsables del encendido y/o apagado de los tomas del proyecto.
+
+![image](https://github.com/RodrigoSturm14/Zapatilla-Electronica-Remota-Z.E.R-/blob/main/Hardware/0.4/Imagen%203d%20con%20esp.jpg)
+
+### Placa de Periféricos:
+
+En esta imagen se puede observar la placa secundaria del proyecto, la cual cumple el rol de mostrarle al usuario de forma visual el estado de conexión del dispositivo y una ruta de fácil acceso para poder reconfigurar este (conectar a una nueva red wifi). 
+Principalmente está conformada por:
+* **LEDs:** Quienes se encargan de mostrar si el dispositivo está conectado al Wifi, y de ser así, también otro para el caso del broquer mqtt.
+* **Pulsador:** Perimite entrar al estado de configuración de Wifi en el caso de que este no pueda conectarse o de cambiar de ubicación el dispositivo.
+
+![image](https://github.com/RodrigoSturm14/Zapatilla-Electronica-Remota-Z.E.R-/blob/main/Hardware/Acople%20Pull%20y%20led/Imagen%203D%20superior.jpg)
+
+
 ## Videos
 ![zer_video_img](https://github.com/RodrigoSturm14/Zapatilla-Electronica-Remota-Z.E.R-/assets/105557226/a82fa8dc-b918-444d-a02f-bd17f430531e)
 
