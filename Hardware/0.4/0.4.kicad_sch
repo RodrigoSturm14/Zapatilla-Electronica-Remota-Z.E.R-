@@ -3232,7 +3232,7 @@
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ee2ed55-93db-4e02-8e77-245967f60c70)
     (property "Reference" "J2" (at 269.24 58.42 0)
-      (effects (font (size 1.524 1.524)))
+      (effects (font (size 1.524 1.524)) hide)
     )
     (property "Value" "Relay2" (at 269.24 60.96 0)
       (effects (font (size 1.524 1.524)))
@@ -3613,10 +3613,10 @@
     (property "Datasheet" "" (at 83.82 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 2bb25746-4ad6-4de0-ac28-f7e910dcdca6))
-    (pin "" (uuid 2bb25746-4ad6-4de0-ac28-f7e910dcdca6))
-    (pin "" (uuid 2bb25746-4ad6-4de0-ac28-f7e910dcdca6))
-    (pin "" (uuid 2bb25746-4ad6-4de0-ac28-f7e910dcdca6))
+    (pin "" (uuid 2bb25746-4ad6-4de0-ac28-f7e910dcdca9))
+    (pin "" (uuid 2bb25746-4ad6-4de0-ac28-f7e910dcdca9))
+    (pin "" (uuid 2bb25746-4ad6-4de0-ac28-f7e910dcdca9))
+    (pin "" (uuid 2bb25746-4ad6-4de0-ac28-f7e910dcdca9))
     (instances
       (project "0.4"
         (path "/a24e792b-1cca-46f8-9449-f3613e1aa031"
