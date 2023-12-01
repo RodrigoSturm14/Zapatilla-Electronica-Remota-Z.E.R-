@@ -23,11 +23,11 @@ bool button_state;
 int pines_output[CANT_OUTPUT] = { PIN_RELAY_1, PIN_RELAY_2, PIN_RELAY_3, PIN_RELAY_4, PIN_LED_V, PIN_LED_R, PIN_LED_ESP };
 
 // ---------  WiFi & Broker MQTT  ---------
-WiFiClient espClient;                        // Definir espClient como un objeto de la clase WiFiClient. c6ea7c
-PubSubClient client(espClient);              // Definir espClient como objeto de la clase PubSubClient. 271193841
-const char *mqtt_broker = "broker.emqx.io";  // Direccion del broker (SHIFTR, EMQX U OTRO BROKER).
-const char *mqtt_username = "RodSturm";      // Username para autenticacion.
-const char *mqtt_password = "racing2018";    // Password para autenticacion.
+WiFiClient espClient;                        // Definir espClient como un objeto de la clase WiFiClient. 
+PubSubClient client(espClient);              // Definir espClient como objeto de la clase PubSubClient.
+const char *mqtt_broker = "";                // Direccion del broker (SHIFTR, EMQX U OTRO BROKER). E.g.: broker.emqx.io
+const char *mqtt_username = "";              // Username para autenticacion.
+const char *mqtt_password = "";              // Password para autenticacion.
 const int mqtt_port = 1883;                  // Puerto MQTT sobre TCP.
 bool wifi_state;
 int PAYLOADINT;
